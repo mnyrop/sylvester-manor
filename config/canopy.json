@@ -1,6 +1,6 @@
 {
   "collection": "https://sites.dlib.nyu.edu/viewer/api/presentation/collections/mss208:fales/manifest.json",
-  "devCollection": "https://sites.dlib.nyu.edu/viewer/api/presentation/collections/mss208:fales/manifest.json",
+  "devCollection": "https://mnyrop.github.io/hostglorb/stuff/json/sm_dev.json",
   "featured": [
     "https://sites.dlib.nyu.edu/viewer/api/presentation/photos/fales_mss208_cuid0/manifest.jsonn",
     "https://sites.dlib.nyu.edu/viewer/api/presentation/photos/fales_mss208_cuid100/manifest.json"
