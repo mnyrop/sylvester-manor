@@ -33,7 +33,7 @@ yarn-error.log*
 # vercel
 .vercel
 
-.canopy
+# .canopy 
 .vscode
 
 public/api
