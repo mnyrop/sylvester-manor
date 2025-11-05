@@ -13,6 +13,16 @@ module.exports.build = async (env) => {
   const { baseUrl } = env;
   const canopyDirectory = ".canopy";
 
+  /**
+   * Skip all if useCache is true
+   */
+  if (env.useCache) {
+    log(`Using cached for IIIF resources; skipping fetched updates...\n\n`);
+    return;
+  }
+
+  
+
   log(`Building Canopy from IIIF Collection...\n`);
   log(`${env.collection}\n\n`, "yellow");
 
