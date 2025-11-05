@@ -39,3 +39,6 @@ yarn-error.log*
 public/api
 public/robots.txt
 public/sitemap*
+
+# dev json
+public/dev_sample.json
