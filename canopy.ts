@@ -17,7 +17,7 @@ const args = process.argv;
   const basePath = isDev ? `` : process.env.NEXT_PUBLIC_BASE_PATH;
   const baseUrl = basePath ? `${url}${basePath}` : url;
   const assetPrefix = basePath;
-  const useCache = process.env.USE_CACHE  ? true : false;
+  const useCache = process.env.USE_CACHE === "true" ? true : false;
 
   const env = {
     CANOPY_CONFIG: {
