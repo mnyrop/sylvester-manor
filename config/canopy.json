@@ -2,6 +2,9 @@
   "collection": "https://stage-sites.dlib.nyu.edu/viewer/api/presentation/collections/mss208:fales/manifest.json",
   "devCollection": "https://mnyrop.github.io/hostglorb/stuff/json/sm_dev.json",
   "metadata": ["Series", "Date"],
+  "featured": [
+    "https://stage-sites.dlib.nyu.edu/viewer/api/presentation/photos/fales_mss208_cuid102/manifest.json"
+  ],
   "theme": {
     "defaultTheme": "light",
     "accentColor": "red",
